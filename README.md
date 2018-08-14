@@ -6,12 +6,13 @@
 * HTML
 * CSS
 * JavaScript
-* Jasmine 2.1.2 (more information https://jasmine.github.io/2.1/introduction.html)
+* Jasmine 2.1.2 [more information] (https://jasmine.github.io/2.1/introduction.html)
 
 ## Project Overview:
 
 This project is a demonstration on how to test an RSS FeedReader JavaScript application using the Jasmine frame work.
-The application being tested is a project provided by Udacity https://github.com/udacity/frontend-nanodegree-feedreader
+The application being tested is a project provided by Udacity [Feedreader Project] (https://github.com/udacity/frontend-nanodegree-feedreader)
+Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/projects/3442558598/rubric)
 
 ## Installation:
 
@@ -21,8 +22,6 @@ The application being tested is a project provided by Udacity https://github.com
 * Once the file is installed, testing can be viewed by opening the index.html to a browser.
 
 # Tests Included:
-
-Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/projects/3442558598/rubric)
 
 1. RSS Feeds:
   * Ensure the RSS Feeds are defined
