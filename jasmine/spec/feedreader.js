@@ -72,12 +72,14 @@ $(function() {
        beforeEach(function(done) {
             loadFeed(0, done);
        });
-
+          //Tests that there is at least one .entry element within .feed container
           it('completes its work', function() {
-              const feed = document.querySelector('.feed');
-              expect(feed.children.length > 0).toBe(true);
+              const feedEntries = document.querySelectorAll('.feed .entry');
+              expect(feedEntries.length).toBeGreaterThan(0);
+              console.log(feedEntries.children);
           });
     });
+
     //Test suite named New Feed Selection
     describe('New Feed Selection', function() {
           const feed = document.querySelector('.feed');
